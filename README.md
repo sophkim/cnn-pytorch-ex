@@ -7,7 +7,7 @@ AlexNet 모델 아키텍처는 다음과 같으며, 데이터셋은 Cifar10을 O
 
 
 
-### 1. TensorFlow 코드
-### 2. Pytorch 코드
+## 1. TensorFlow 코드
+## 2. Pytorch 코드
 ### 3. Torch-TensorRT 적용 후 inference 비교
 ### 4. PyTorch JIT Trace 적용 후 inference 비교
