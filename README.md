@@ -11,4 +11,4 @@ AlexNet 모델 아키텍처는 다음과 같으며, 데이터셋은 Cifar10을 O
 #### 2. Pytorch 코드
 #### 3. Torch-TensorRT 적용 후 inference 비교
 #### 4. PyTorch JIT Trace 적용 후 inference 비교
-#### 5. PyTorch, TensorFlow 논문 (PyTorch: An Imperative Style, High-Performance Deep Learning Library / TensorFlow: A System for Large-Scale Machine Learning) Summary
+#### 5. PyTorch, TensorFlow 논문 Summary (PyTorch: An Imperative Style, High-Performance Deep Learning Library / TensorFlow: A System for Large-Scale Machine Learning)
