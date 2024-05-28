@@ -1,1 +1,9 @@
-## JIT Trace
+# PyTorch JIT Trace 모드 실행 및 optimization 수행 후 속도 차이 비교
+
+a. JIT Trace 모드를 실행시켰을 때 속도는 0.75ms이었는데, inference에 대한 optimization(함수 optimize_for_inference 사용)을 적용시킨 후 속도는 0.43ms으로 이전 보다 약 43% 감소하였다.
+
+[JIT Trace 실행 결과]
+Total inference time for the test set: 0.75848 seconds
+
+[JIT Trace 실행 + optimization 결과]
+Total inference time for the test set: 0.43101 seconds
