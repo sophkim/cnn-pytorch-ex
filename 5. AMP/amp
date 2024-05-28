@@ -1,0 +1,12 @@
+# Automatic Mixed Precision
+
+Automatic Mixed Precision 적용 후 training 시간은 줄고 accuracy는 향상했다.
+Automatic Mixed Precision 적용 전 training time은 1306ms, accuracy는 0.8551이었으나, 적용 후  training time은 1249ms, accuracy는 0.9113이다. 
+
+[Automatic Mixed Precision 적용 전]
+Total training time: 1306.4641 seconds
+accuracy: 0.8551
+
+[Automatic Mixed Precision 적용 후]
+Total training time: 1249.0271 seconds
+accuracy: 0.9113
