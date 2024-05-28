@@ -1,4 +1,4 @@
-###Torch-TensorRT 적용 후 inference 속도 차이 비교
+# Torch-TensorRT 적용 후 inference 속도 차이 비교
 
 a. python에서 제공하는 time 라이브러리는 CPU에서 측정되기 때문에 정확한 측정이 어 려워 pytorch에서 제공하는 torch.cuda.Event()를 이용했다.
 b. Torch-TensorRT 적용 전 속도는 0.1426ms인데, 적용 후 속도는 0.0952ms로으로 이전 보다 약 33% 감소하였다.
